@@ -6,6 +6,7 @@
     --whiteColor:white;
     --blurColor:rgba(255, 255, 255, 0.178);
     
+    
 
 }
 
@@ -271,6 +272,42 @@ ul li{
     height: 180px;
 }
 
+.card2{
+    background-color: var(--blurColor);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+
+}
+.card2 span{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.5em;
+    gap: 10px;
+
+}
+
+.card2 span img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.card2 span a{
+    text-decoration: none;
+    color: var(--whiteColor);    
+}
+
+.card2 span h2{
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
 .part-1{
     display: flex;
     justify-content: space-between;
@@ -283,6 +320,8 @@ ul li{
     font-size: 1em;
 }
 .part-1 span p{
+    height: 35px;
+    overflow: hidden;
     font-size: 0.8em;
 }
 
